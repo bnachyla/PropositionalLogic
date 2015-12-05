@@ -1,4 +1,3 @@
-import propositional.examples._
 import propositional.files.{ReadLogicPropositions, ReadDataset}
 import propositional.Formulas._
 import propositional.{FormulaInOut, FormulaParser, Formula}
@@ -12,7 +11,7 @@ import scala.Predef._
  * To change this template use File | Settings | File Templates.
  */
 
-object RunZ1 {
+object RunSAT {
     type Clause = Set[Formula]
 
     def main(args: Array[String]): Unit = {

@@ -1,6 +1,6 @@
 package propositional.files
 
-import io.Source
+import scala.io.Source
 import propositional.{Implication, Formula, Atom}
 
 

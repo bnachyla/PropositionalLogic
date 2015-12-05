@@ -81,10 +81,6 @@ object DPLLBasic {
 
 
     def dpll(formulas: List[Clause],inferredVal: Map[Formula,Boolean]=Map[Formula,Boolean]()): Option[Map[Formula,Boolean]]={
-//        println("---------------DPLL-------------------")
-//        print("valuation: ")
-//        println(inferredVal.mkString("; "))
-//        printFormulas(formulas)
         formulas.find(cl => cl.size==1) match{
             case Some(f) => {
                // println("---------> Unit found: "+f)

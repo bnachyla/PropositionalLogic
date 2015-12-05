@@ -2,7 +2,7 @@ package propositional.nqueens
 
 
 import propositional.{Formula,Atom}
-import util.matching.Regex
+import scala.util.matching.Regex
 
 
 /**

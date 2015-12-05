@@ -1,7 +1,7 @@
 package propositional.files
 
 import propositional.{FormulaParser, Formula}
-import io.Source
+import scala.io.Source
 
 
 /**
